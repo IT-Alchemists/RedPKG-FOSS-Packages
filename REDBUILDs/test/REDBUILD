@@ -1,0 +1,20 @@
+# Maintainer: Jackson Novak <ogloooglooagla@tutanota.com>
+
+name="test-pkg"
+pretty_name="Test Package"
+authors=("Jackson Novak")
+licenses=()
+dependencies=()
+optional_dependencies=()
+
+build () {
+	echo "Creating binaries, yeah, this is the building section."
+}
+
+install () {
+	echo "Moving binaries or whatever."
+}
+
+pkgver () {
+	echo "1"
+}
